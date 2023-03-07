@@ -319,3 +319,13 @@
   animation: floating-heart6 5s cubic-bezier(0.5, 0.5, 0.5, 0.5);
   animation-delay: 0.7s;
 }
+
+@media screen and (min-width: 1500px) {
+  .bottom_left_img {
+    transform: translate(20%, -35%);
+    width: 350px;
+  }
+  .bottom_left_img img {
+    width: 350px;
+  }
+}
