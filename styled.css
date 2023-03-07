@@ -7,9 +7,9 @@
 }
 .holiday__container {
   background-color: #efd8d8;
+  position: relative;
   min-height: 100vh;
   overflow: hidden;
-  offset: none;
 }
 .top_right_img {
   position: relative;
@@ -21,7 +21,8 @@
   width: 450px;
 }
 .women {
-    position: absolute;
+  position: absolute;
+  z-index: 999;
   top: 20%;
   left: 10%;
   width: 300px;
@@ -38,22 +39,24 @@
   height: 500px;
 }
 .women p {
-    font-family: "Great Vibes", cursive;
-    font-size: 90px;
+  font-family: "Great Vibes", cursive;
+  font-size: 90px;
 }
 .women span {
-    font-size: 100px;
-    font-family: "Anton", sans-serif;
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
 }
 .women h1 {
-    font-size: 40px;
-    font-family: "Abel", sans-serif;
+  font-size: 40px;
+  font-family: "Abel", sans-serif;
 }
 
 .bottom_left_img {
-  position: relative;
+  position: absolute;
   margin-right: auto;
-  transform: translate(-30%, 40%) rotate(180deg);
+  bottom: -10%;
+  left: -40px;
+  transform: rotate(180deg);
   opacity: 0.8;
   width: 350px;
   height: 200px;
